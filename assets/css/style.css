@@ -514,10 +514,14 @@ input{
     .contenedorTarjeta{
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        
-        
+        justify-content: space-around;  
     }
+
+    .tarjeta:hover{
+        transition: all 1s;
+        transform: scale(1.2);
+    }
+
     /*Contiene párrafos descripción "Sobre Mi" + "Soy Mariana Martinez" + IMG*/
     .contenedorSobreMi{
         display: flex;
